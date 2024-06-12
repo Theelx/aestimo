@@ -5020,6 +5020,7 @@ def save_and_plot(result, model):
         pl.title("Electron (red)& Hole (bleu) Densities vs Position ", fontsize=10)
         pl.grid(True)
         pl.savefig("results.png")
+        print("Saved plot to results.png!")
         pl.show()
     if drawFigures:
         return [fig1, fig2]
