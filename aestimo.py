@@ -5019,6 +5019,7 @@ def save_and_plot(result, model):
         pl.ylabel("Electron  & Hole  Densities [1/cm^3]")
         pl.title("Electron (red)& Hole (bleu) Densities vs Position ", fontsize=10)
         pl.grid(True)
+        pl.savefig("results.png")
         pl.show()
     if drawFigures:
         return [fig1, fig2]
